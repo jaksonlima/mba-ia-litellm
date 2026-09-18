@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mba-ia-litellm
+  ai:
+    openai:
+      base-url: ${LITELLM_BASE_URL:http://localhost:4000}
+      api-key: ${LITELLM_API_KEY:sk-1234}
+      chat:
+        model: gemini-flash
